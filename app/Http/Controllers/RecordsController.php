@@ -9,6 +9,12 @@ use DateTime;
 
 class RecordsController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function list() {
         // $posts = \App\Post::all();
         // $posts = Post::all();

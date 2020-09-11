@@ -31,6 +31,9 @@
                     <ul class="navbar-nav">
                         <li class="nav-item"><a href="{{ url('/verification/create') }}" class="nav-link">新規</a></li>
                     </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="{{ url('/verification/logout') }}" class="nav-link">ログアウト</a></li>
+                    </ul>
                 </div>
             </nav>
         </div>
